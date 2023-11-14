@@ -12,7 +12,6 @@ export function CoctailData() {
   // { search }: { search: string }
   const [error, setError] = useState<Error | null>(null);
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
-  // const [items, setItems] = useState<AstronomicalObject[]>([]);
   const { search, items, setItems } = useContext(SearchContext);
 
   useEffect(() => {
