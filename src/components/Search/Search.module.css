@@ -1,0 +1,30 @@
+.form {
+  position: relative;
+  width: 260px;
+}
+
+.form__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  border-radius: 10px;
+  width: 100%;
+  height: 20px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button__submit {
+  position: absolute;
+  border-radius: 50px;
+  border: none;
+  background-color: green;
+  color: aliceblue;
+  top: 5px;
+  left: 210px;
+}
